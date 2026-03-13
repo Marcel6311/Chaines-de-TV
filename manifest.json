@@ -1,0 +1,33 @@
+{
+  "name": "Guide TV Suisse Romande",
+  "short_name": "Guide TV",
+  "description": "Programme TV Suisse et francophone sur 2 semaines",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0b0b1c",
+  "theme_color": "#0b0b1c",
+  "lang": "fr",
+  "categories": ["entertainment", "news"],
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "RTS 1",
+      "url": "./index.html",
+      "description": "Voir RTS 1"
+    }
+  ]
+}
